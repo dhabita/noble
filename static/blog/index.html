@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Nella Theme</title>
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/ionicons.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>
+    <!-- Swipe Pannel -->
+    <div class="panel panel-right panel-reveal">
+      <form id="search-form" action="#">
+        <input type="text" id="search-input" class="search-bar" placeholder="Search ...">
+      </form>
+      <span class="title-categories">Categories</span>
+      <ul id="categorie-list">
+        <li>Art</li>
+        <li>Beauty</li>
+        <li>Business</li>
+        <li>Comedy</li>
+        <li>Education</li>
+        <li>Fashion</li>
+        <li>Food</li>
+        <li>How to</li>
+        <li>Lifestyle</li>
+        <li>Photography</li>
+        <li>Sports</li>
+        <li>Travel</li>
+      </ul>
+    </div>
+
+    <div class="views tabs">
+      <!-- Main view -  Home -->
+      <div id="view-main" class="view view-main tab active">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="left back-hidden">
+                <a href="#" class="link back"><i class="demo-icon icon-left"></i></a>
+            </div>
+            <div class="center"><img src="img/logo.png" alt=""></div>
+            <div class="right">
+                <a href="#" data-panel="right" class="link open-panel"><i class="demo-icon ion-navicon"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Main view content -->
+        <div class="pages navbar-fixed">
+          <div class="page">
+            <div id="content-posts" class="page-content pull-to-refresh-content infinite-scroll" data-distance="50">
+              <div class="pull-to-refresh-layer">
+                <span class="preloader"></span>
+                <div class="pull-to-refresh-arrow"></div>
+              </div>
+              <ul class="post-list" id="post-list">
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image1.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Welcome to Nella, an awesome Mobile Theme</span>
+                      </div>
+                      <div class="post-category red">Travel</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>1 day ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image2.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>With a beautiful responsive design for all devices</span>
+                      </div>
+                      <div class="post-category blue">Fashion</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>3 days ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image3.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Click on the top right menu to open it !</span>
+                      </div>
+                      <div class="post-category red">Travel</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>5 days ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image4.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>This is a very long title, it will be cropped, don't worry</span>
+                      </div>
+                      <div class="post-category yellow">Sports</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>1 week ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image5.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>This is a another title example</span>
+                      </div>
+                      <div class="post-category red">Travel</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>1 weeks ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image6.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>The next posts will be Lorem Ipsum</span>
+                      </div>
+                      <div class="post-category green">Business</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>2 weeks ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image7.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Aliquam tincidunt mauris eu risus</span>
+                      </div>
+                      <div class="post-category blue">Fashion</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>3 weeks ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image8.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Vestibulum auctor dapibus neque tempor sem</span>
+                      </div>
+                      <div class="post-category red">Travel</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>1 month ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image9.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Pellentesque fermentum dolor</span>
+                      </div>
+                      <div class="post-category yellow">Sports</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>1 month ago</div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="post.html">
+                    <div class="post-thumbnail"><img src="img/thumbnails/image10.jpg" alt=""></div>
+                    <div class="post-infos">
+                      <div class="post-title">
+                        <span>Pellentesque habitant morbi tristique senectus</span>
+                      </div>
+                      <div class="post-category red">Travel</div>
+                      <div class="post-date"><i class="icon ion-android-time"></i>2 months ago</div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <span id="infinite-loader" class="preloader"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View contact -->
+      <div id="view-contact" class="view tab">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center"><img src="img/logo.png" alt=""></div>
+          </div>
+        </div>
+        <div class="pages navbar-fixed">
+          <div data-page="index" class="page">
+            <div class="page-content">
+              <h2>Contact</h2>
+              <div class="form-block">
+                <i class="icon ion-ios-person-outline"></i>
+                <input type="text" placeholder="Full name">
+              </div>
+              <div class="form-block">
+                <i class="icon ion-ios-email-outline"></i>
+                <input type="text" placeholder="Email">
+              </div>
+              <div class="form-block">
+                <i class="icon ion-ios-grid-view-outline"></i>
+                <input type="text" placeholder="Subject">
+              </div>
+              <div class="form-block form-message">
+                <i class="icon ion-ios-chatbubble-outline"></i>
+                <textarea placeholder="Message"></textarea>
+              </div>
+              <input type="submit" value="Send" class="submit-button">
+            </div>
+          </div>
+       </div>
+     </div>
+
+     <!-- View about -->
+     <div id="view-about" class="view tab">
+       <div class="navbar">
+         <div class="navbar-inner">
+           <div class="center"><img src="img/logo.png" alt=""></div>
+         </div>
+       </div>
+       <div class="pages navbar-fixed">
+         <div data-page="index" class="page">
+           <div class="page-content">
+             <img class="about-banner" src="img/banner.jpg" alt="">
+             <img class="about-avatar" src="img/avatar.jpg" alt="">
+             <div class="about-content">
+               <div class="about-author">Nella Theme</div>
+               <div class="about-website"><i class="icon ion-ios-world-outline"></i>http://example.com</div>
+               <div class="about-mail"><i class="icon ion-ios-email-outline"></i>contact@example.com</div>
+               <div class="about-buttons">
+                 <a class="social-link facebook"><i class="icon ion-social-facebook"></i>facebook.com/yourID</a>
+                 <a class="social-link twitter"><i class="icon ion-social-twitter"></i>@YourTwitterID</a>
+                 <a class="social-link youtube"><i class="icon ion-social-youtube"></i>Your YT Channel</a>
+                 <a class="social-link instagram"><i class="icon ion-social-instagram"></i>YourInstagramID</a>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <!-- View features -->
+     <div id="view-features" class="view tab">
+       <div class="navbar">
+         <div class="navbar-inner">
+           <div class="center"><img src="img/logo.png" alt=""></div>
+         </div>
+       </div>
+       <div class="pages navbar-fixed">
+         <div data-page="index" class="page">
+           <div class="page-content">
+              <div class="feature-header">Titles</div>
+              <h1>This is an h1 title</h1>
+              <h2>This is an h2 title</h2>
+              <h3>This is an h3 title</h3>
+              <h4>This is an h4 title</h4>
+              <div class="feature-header">Paragraph</div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do <strong>strong</strong> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <strong>this is important</strong> ex ea commodo consequat.</p>
+              <div class="feature-header">Categories</div>
+              <div class="post-category red">Beauty</div>
+              <div class="post-category yellow">Photography</div>
+              <div class="post-category green">Art</div>
+              <div class="post-category blue">Design</div>
+              <div class="feature-header">Lists</div>
+              <ul>
+                <li>An item</li>
+                <li>An another item</li>
+                <li>Lorem ipsum elit</li>
+                <li>Lorem ipsum dolor</li>
+                <li>Lorem ipsum sed</li>
+              </ul>
+              <div class="feature-header">Images</div>
+              <img src="img/thumbnails/image5.jpg" class="large-img" alt="">
+              <span class="legend">A large image</span>
+              <img src="img/thumbnails/image5.jpg" class="full-width" alt="">
+              <span class="legend">A full width image</span>
+              <div class="feature-header">Tabs</div>
+              <div class="content-block">
+                <div class="buttons-row">
+                  <a href="#tab1" class="tab-link active button">Tab 1</a>
+                  <a href="#tab2" class="tab-link button">Tab 2</a>
+                  <a href="#tab3" class="tab-link button">Tab 3</a>
+                </div>
+              </div>
+              <div class="tabs">
+                <div id="tab1" class="tab active">
+                  <div class="content-block">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+                <div id="tab2" class="tab">
+                  <div class="content-block">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+                <div id="tab3" class="tab">
+                  <div class="content-block">
+                    <p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit aliquip.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="feature-header">Large players</div>
+              <iframe src="https://player.vimeo.com/video/35330116?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" allowfullscreen></iframe>
+              <span class="legend">Vimeo player</span>
+              <br />
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/Pe0jFDPHkzo?autoplay=0&showinfo=0&controls=0" allowfullscreen></iframe>
+              <span class="legend">Youtube player</span>
+              <div class="feature-header">Full width players</div>
+              <iframe class="full-width" src="https://player.vimeo.com/video/35330116?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" allowfullscreen></iframe>
+              <span class="legend">Vimeo player</span>
+              <iframe class="full-width" width="560" height="315" src="https://www.youtube.com/embed/Pe0jFDPHkzo?autoplay=0&showinfo=0&controls=0" allowfullscreen></iframe>
+              <span class="legend">Youtube player</span>
+           </div>
+         </div>
+       </div>
+     </div>
+
+     <!-- Tab bar -->
+     <div class="toolbar tabbar tabbar-labels">
+        <div class="toolbar-inner">
+          <a href="#view-main" class="tab-link active">
+            <i class="icon ion-home"></i>
+            <span class="tabbar-label">Home</span>
+          </a>
+          <a href="#view-contact" class="tab-link">
+            <i class="icon ion-email"></i>
+            <span class="tabbar-label">Contact</span>
+          </a>
+          <a href="#view-about" class="tab-link">
+            <i class="icon ion-person"></i>
+            <span class="tabbar-label">About</span>
+          </a>
+          <a href="#view-features" class="tab-link">
+            <i class="icon ion-gear-a"></i>
+            <span class="tabbar-label">Features</span>
+          </a>
+        </div>
+     </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>

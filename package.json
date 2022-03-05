@@ -1,0 +1,35 @@
+{
+  "name": "noble",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "express-rate-limit": "^6.3.0",
+    "express-routes-mapper": "^1.1.0",
+    "init": "^0.1.2",
+    "core-js": "^2.6.9",
+    "cors": "^2.8.5",
+    "ejs-locals": "^1.0.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhabita/noble.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhabita/noble/issues"
+  },
+  "homepage": "https://github.com/dhabita/noble#readme"
+}
