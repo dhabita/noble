@@ -44,14 +44,13 @@ Highcharts.chart('container', {
         }
     },                   
     series: [{
-        name: 'Brands',
+        name: 'NUBLE',
         data: [
-            { name: '0.7 $', y: 12 },
-            { name: '0.9 $', y: 15 },
-            { name: '0.95 $', y: 16 },
-            { name: '1.05 $', y: 17 },
-            { name: '1.10 $', y: 19 },
-            { name: '1.20 $', y: 21 }
+            { name: 'Liquidity 10%', y: 5 },
+            { name: 'Reward 55%', y: 55 },
+            { name: 'Charity 5%', y: 5 },
+            { name: 'Team 30%', y: 30 }
+           
             
         ]
     }]
