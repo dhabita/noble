@@ -112,10 +112,45 @@ NOBLETOKEN
                         <a href="#registration" class="js-scroll-trigger btn-home">Buy NOBLE</a>
                     </div>
                 </div>
+            <style> 
+                .iii {
+
+                    margin-bottom: 100px;
+                    margin:20px auto;
+                    -webkit-animation:spin 4s linear infinite;
+                    -moz-animation:spin 4s linear infinite;
+                    animation:spin 4s linear infinite;
+                }
+                @-moz-keyframes spin { 
+                    100% { -moz-transform: rotate(360deg); } 
+                }
+                @-webkit-keyframes spin { 
+                    100% { -webkit-transform: rotate(360deg); } 
+                }
+                @keyframes spin { 
+                    100% { 
+                        -webkit-transform: rotate(360deg); 
+                        transform:rotate(360deg); 
+                    } 
+                }
+            </style>
+
+            <script>
+               
+                    $('.iii').css({
+                    '-webkit-animation': ''
+                    });
+                    $('.iii').css({
+                    '-moz-animation': ''
+                    });
+                    $('.iii').css({
+                    'animation': ''
+                    });
+            </script>
                 <!--- END COL -->
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="animated-calc mt-40">
-                        <img src="assets/img/bg/rocket1.png" class="rocket-img" alt="img">
+                        <img src="assets/img/noble.png" class="rocket-img iii" alt="img" width="400px">
                     </div>
                 </div>
                 <!--- END COL -->
