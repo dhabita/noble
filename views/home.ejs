@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -45,12 +44,12 @@
     <!-- END PRELOADER -->
 
     <!-- START NAVBAR -->
- 
+
     <nav class="navbar navbar-expand-lg navbar-light fixed-top  " id="mainNav">
-        <div class="container"  style='padding:5px'>
+        <div class="container" style='padding:5px'>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                 <!-- <img class="img-fluid" src="assets/img/logo.png" alt="">  -->
-NOBLETOKEN
+                <!-- <img class="img-fluid" src="assets/img/logo.png" alt="">  -->
+                NOBLETOKEN
             </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -73,26 +72,26 @@ NOBLETOKEN
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#road-map">Road Map</a>
                     </li>
-                   
+
                 </ul>
             </div>
         </div>
     </nav>
 
-  
+
     <!-- END NAVBAR -->
 
-   
+
     <!-- START SLIDER STATIC -->
-    <section id="home" class="home-static-1 rocke rocket section-back-image home-static-2 " data-background="assets/img/bg/home-static-4.jpg" >
-       
+    <section id="home" class="home-static-1 rocke rocket section-back-image home-static-2 " data-background="assets/img/bg/home-static-4.jpg">
+
         <!-- <div class="ray ray-horizontal y-35 x-0 ray-rotate-45 laser-blink hidden-sm hidden-xs"></div>
         <div class="ray ray-vertical y-100 x-50 ray-rotate-135 laser-blink hidden-sm hidden-xs"></div> -->
         <div class="container no-padding">
             <div class="row header-content">
                 <!--- END COL -->
                 <div class="home-static-middle col-lg-8 col-md-12 col-sm-12 col-12 text-left">
-                    
+
                     <div class="message-slider owl-carousel owl-theme">
                         <div class="message-slider-text">
                             <h1>Noble Gift Token</h1>
@@ -104,49 +103,55 @@ NOBLETOKEN
                     <p>A Crypto Assets for the BELBIRA community</p>
 
                     <div class="header-desc">
-                        Prizes and Assets are kept for the BELBIRA Business community with a potential number of hundreds of millions of members in Indonesia. In the future, it will be used as a transaction tool for community members and outside the community, especially game transactions and product transactions in a NOBLE store marketplace. 0.5% automatic token burning occurs every transaction and 1% through NOBLE Gamer and NOBLE Store transactions.
+                        Prizes and Assets are kept for the BELBIRA Business community with a potential number of hundreds of millions of members in Indonesia. In the future, it will be used as a transaction tool for community members and outside the community, especially game
+                        transactions and product transactions in a NOBLE store marketplace. 0.1% automatic token burning occurs every transaction and 1% through NOBLE Gamer and NOBLE Store transactions.
                     </div>
-                    
+
                     <div class="home-btn-wrapper">
                         <a href="#about" class="js-scroll-trigger btn-home">READ MORE</a>
                         <a href="#registration" class="js-scroll-trigger btn-home">Buy NOBLE</a>
                     </div>
                 </div>
-            <style> 
-                .iii {
+                <style>
+                    .iii {
+                        margin-bottom: 100px;
+                        margin: 20px auto;
+                        -webkit-animation: spin 4s linear infinite;
+                        -moz-animation: spin 4s linear infinite;
+                        animation: spin 4s linear infinite;
+                    }
+                    
+                    @-moz-keyframes spin {
+                        100% {
+                            -moz-transform: rotate(360deg);
+                        }
+                    }
+                    
+                    @-webkit-keyframes spin {
+                        100% {
+                            -webkit-transform: rotate(360deg);
+                        }
+                    }
+                    
+                    @keyframes spin {
+                        100% {
+                            -webkit-transform: rotate(360deg);
+                            transform: rotate(360deg);
+                        }
+                    }
+                </style>
 
-                    margin-bottom: 100px;
-                    margin:20px auto;
-                    -webkit-animation:spin 4s linear infinite;
-                    -moz-animation:spin 4s linear infinite;
-                    animation:spin 4s linear infinite;
-                }
-                @-moz-keyframes spin { 
-                    100% { -moz-transform: rotate(360deg); } 
-                }
-                @-webkit-keyframes spin { 
-                    100% { -webkit-transform: rotate(360deg); } 
-                }
-                @keyframes spin { 
-                    100% { 
-                        -webkit-transform: rotate(360deg); 
-                        transform:rotate(360deg); 
-                    } 
-                }
-            </style>
-
-            <script>
-               
+                <script>
                     $('.iii').css({
-                    '-webkit-animation': ''
+                        '-webkit-animation': ''
                     });
                     $('.iii').css({
-                    '-moz-animation': ''
+                        '-moz-animation': ''
                     });
                     $('.iii').css({
-                    'animation': ''
+                        'animation': ''
                     });
-            </script>
+                </script>
                 <!--- END COL -->
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="animated-calc mt-40">
@@ -163,30 +168,36 @@ NOBLETOKEN
 
     <div class="clearfix"></div>
 
-    
+
     <div class="marquee-bar">
         <div class="container-fluid">
             <div class="row">
                 <script>
-                baseUrl = "https://widgets.cryptocompare.com/";
-                var scripts = document.getElementsByTagName("script");
-                var embedder = scripts[scripts.length - 1];
-                var cccTheme = { "General": { "enableMarquee": true } };
-                (function() {
-                    var appName = encodeURIComponent(window.location.hostname);
-                    if (appName == "") { appName = "local"; }
-                    var s = document.createElement("script");
-                    s.type = "text/javascript";
-                    s.async = true;
-                    var theUrl = baseUrl + 'serve/v3/coin/header?fsyms=BTC,ETH,BNB,LTC,DASH,DOGE,BLOK,SAND,SOL,TOKO&tsyms=USD';
-                    s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-                    embedder.parentNode.appendChild(s);
-                })();
+                    baseUrl = "https://widgets.cryptocompare.com/";
+                    var scripts = document.getElementsByTagName("script");
+                    var embedder = scripts[scripts.length - 1];
+                    var cccTheme = {
+                        "General": {
+                            "enableMarquee": true
+                        }
+                    };
+                    (function() {
+                        var appName = encodeURIComponent(window.location.hostname);
+                        if (appName == "") {
+                            appName = "local";
+                        }
+                        var s = document.createElement("script");
+                        s.type = "text/javascript";
+                        s.async = true;
+                        var theUrl = baseUrl + 'serve/v3/coin/header?fsyms=BTC,ETH,BNB,LTC,DASH,DOGE,BLOK,SAND,SOL,TOKO&tsyms=USD';
+                        s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                        embedder.parentNode.appendChild(s);
+                    })();
                 </script>
             </div>
         </div>
     </div>
-    
+
 
     <!-- START ABOUT -->
     <section id="about" class="section-padding">
@@ -202,7 +213,8 @@ NOBLETOKEN
                     <div class="section-title mt-10">
                         <h3>About Noble Token</h3>
                         <span></span>
-                        <p>Prizes and Assets are kept for the BELBIRA Business community with a potential number of hundreds of millions of members in Indonesia. In the future, it will be used as a transaction tool for community members and outside the community, especially game transactions and product transactions in a NOBLE store marketplace. 0.5% automatic token burning occurs every transaction and 1% through NOBLE Gamer and NOBLE Store transactions.</p>
+                        <p>Prizes and Assets are kept for the BELBIRA Business community with a potential number of hundreds of millions of members in Indonesia. In the future, it will be used as a transaction tool for community members and outside the community,
+                            especially game transactions and product transactions in a NOBLE store marketplace. 0.1% automatic token burning occurs every transaction and 1% through NOBLE Gamer and NOBLE Store transactions.</p>
                     </div>
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-12">
@@ -211,8 +223,8 @@ NOBLETOKEN
                                     <img class="icon" src="assets/img/icons/icon1.png" alt="">
                                 </div>
                                 <div class="single-feature-text">
-                                    <h5>Trusted Certified</h5>
-                                    <p>We are tusted by million users</p>
+                                    <h5>BSC Verified</h5>
+                                    <p>Verified at bscscan.com</p>
                                 </div>
                             </div>
                             <div class="single-feature">
@@ -220,8 +232,8 @@ NOBLETOKEN
                                     <img class="icon" src="assets/img/icons/icon2.png" alt="">
                                 </div>
                                 <div class="single-feature-text">
-                                    <h5>Expert Advisor</h5>
-                                    <p>We have top rated expert</p>
+                                    <h5>Creted for Gift</h5>
+                                    <p>Created for gift to community </p>
                                 </div>
                             </div>
                         </div>
@@ -232,7 +244,7 @@ NOBLETOKEN
                                 </div>
                                 <div class="single-feature-text">
                                     <h5>Affordable Service</h5>
-                                    <p>All services in affordable price</p>
+                                    <p>All services in affordable client</p>
                                 </div>
                             </div>
                             <div class="single-feature">
@@ -240,8 +252,8 @@ NOBLETOKEN
                                     <img class="icon" src="assets/img/icons/icon4.png" alt="">
                                 </div>
                                 <div class="single-feature-text">
-                                    <h5>Best Crypto Company</h5>
-                                    <p>We are the best Crypto company</p>
+                                    <h5>Verified Company</h5>
+                                    <p>We are the real company</p>
                                 </div>
                             </div>
                         </div>
@@ -256,13 +268,13 @@ NOBLETOKEN
     <!-- END ABOUT -->
 
 
-     <section class="ico-distribution bird-background" id="sale">
+    <section class="ico-distribution bird-background" id="sale">
         <div class="container">
             <div class="text-center">
                 <div class="section-title">
                     <h3>Noble Tokenomic</h3>
                     <span></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                    <p>Most tokenomics are for community rewards.</p>
                 </div>
             </div>
             <div class="row">
@@ -278,43 +290,43 @@ NOBLETOKEN
 
                 <div class="col-lg-6 col-md-12 col-xs-12 progress-div">
 
-                   
+
 
 
                     <!-- Blue -->
-                    <h6 class="angle-round">Liquidity  <span class="number">2,799,999 B NOBLE</span></h6>
+                    <h6 class="angle-round">Liquidity <span class="number">2,799,999 B NOBLE</span></h6>
                     <div class="progress progress-cls">
-                      <div class="progress-bar " style="width: 10%;"  role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" >10% </div>
+                        <div class="progress-bar   " style="width: 10%; background-color: #abcdef;" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">10% </div>
                     </div>
-                    
+
                     <!-- Green -->
-                     <h6 class="angle-round">Team <span class="number">8,399,999 B NOBLE</span></h6>
+                    <h6 class="angle-round">Team <span class="number">8,399,999 B NOBLE</span></h6>
                     <div class="progress progress-cls">
-                      <div class="progress-bar " style="width: 30%;"  role="progressbar"  aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                        <div class="progress-bar bg2 " style="width: 30%;" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
                     </div>
-                    
+
                     <!-- Turquoise -->
-                     <h6 class="angle-round">Community reward<span class="number">15,399,999 B NOBLE</span></h6>
+                    <h6 class="angle-round">Community reward<span class="number">15,399,999 B NOBLE</span></h6>
                     <div class="progress progress-cls">
-                      <div class="progress-bar   bg2"  role="progressbar"   style="width: 55%;"   aria-valuemin="0" aria-valuemax="100">55%</div>
+                        <div class="progress-bar   " role="progressbar" style="width: 55%;" aria-valuemin="0" aria-valuemax="100">55%</div>
                     </div>
-                    
+
                     <!-- Orange -->
-                     <h6 class="angle-round">Charity  <span class="number">1,399,999 B NOBLE</span></h6>
+                    <h6 class="angle-round">Charity <span class="number">1,399,999 B NOBLE</span></h6>
                     <div class="progress progress-cls">
-                       <div class="progress-bar   bg3"  style="width: 5%;"  aria-valuemin="0" aria-valuemax="100">5% </div>
+                        <div class="progress-bar   bg3" style="width: 5%;" aria-valuemin="0" aria-valuemax="100">5% </div>
                     </div>
-                    
-                    
-                            
-                       
+
+
+
+
                 </div>
             </div>
         </div>
     </section>
 
-    
-    <section class="how-it-works" id="how-it-work">
+
+    <section class="how-it-works d-none" id="how-it-work">
         <div class="container">
             <div class="text-center">
                 <div class="section-title">
@@ -325,53 +337,55 @@ NOBLETOKEN
             </div>
             <div class="row text-center">
                 <div class="outer">
-              
-                  
-                    <div class="row clearfix">
-                      <!--Left Column-->
-                       <div class="left-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                          <div class="inner-circle"><a href="#"><img class="phone" src="assets/img/bg/feature-1.png" alt="image"></a></div>
-                      </div>
-                      
-                      <!--Right Column-->
-                      <div class="right-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                          
-                          <!--Service Box-->
-                          <div class="service-box-four">
-                              <div class="inner-box">
-                                  <span class="indicator">1</span>
-                                  <div class="icon-box"><img src="assets/img/icons/how1.png" alt="icon"></div>
-                                  <h3><a href="services-single.html">Register New Account</a></h3>
-                                  <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
-                              </div>
-                          </div>
-                          
-                          <!--Service Box-->
-                          <div class="service-box-four">
-                              <div class="inner-box">
-                                  <span class="indicator">2</span>
-                                  <div class="icon-box"><img src="assets/img/icons/how2.png" alt="icon"></div>
-                                  <h3><a href="services-single.html">Create Crypto Wallet</a></h3>
-                                  <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
-                              </div>
-                          </div>
-                          
-                          <!--Service Box-->
-                          <div class="service-box-four">
-                              <div class="inner-box">
-                                  <span class="indicator">3</span>
-                                  <div class="icon-box"><img src="assets/img/icons/how3.png" alt="icon"></div>
-                                  <h3><a href="services-single.html">Buy & Sell Bitcoin</a></h3>
-                                  <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
-                              </div>
-                          </div>
-                          
-                       </div>
-                      
-                    </div>
-                 </div>
 
-          </div>
+
+                    <div class="row clearfix">
+                        <!--Left Column-->
+                        <div class="left-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="inner-circle">
+                                <a href="#"><img class="phone" src="assets/img/bg/feature-1.png" alt="image"></a>
+                            </div>
+                        </div>
+
+                        <!--Right Column-->
+                        <div class="right-column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                            <!--Service Box-->
+                            <div class="service-box-four">
+                                <div class="inner-box">
+                                    <span class="indicator">1</span>
+                                    <div class="icon-box"><img src="assets/img/icons/how1.png" alt="icon"></div>
+                                    <h3><a href="services-single.html">Register New Account</a></h3>
+                                    <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
+                                </div>
+                            </div>
+
+                            <!--Service Box-->
+                            <div class="service-box-four">
+                                <div class="inner-box">
+                                    <span class="indicator">2</span>
+                                    <div class="icon-box"><img src="assets/img/icons/how2.png" alt="icon"></div>
+                                    <h3><a href="services-single.html">Create Crypto Wallet</a></h3>
+                                    <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
+                                </div>
+                            </div>
+
+                            <!--Service Box-->
+                            <div class="service-box-four">
+                                <div class="inner-box">
+                                    <span class="indicator">3</span>
+                                    <div class="icon-box"><img src="assets/img/icons/how3.png" alt="icon"></div>
+                                    <h3><a href="services-single.html">Buy & Sell Bitcoin</a></h3>
+                                    <div class="text"> Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition aggsh eats. </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
             <!--- END ROW -->
         </div>
         <!--- END CONTAINER -->
@@ -379,10 +393,10 @@ NOBLETOKEN
     <!-- END BOUCHER -->
 
 
-    <div class="clearfix"></div>
+    <!-- <div class="clearfix"></div> -->
 
 
-    <section class="our-service" id="services">
+    <section class="our-service mt-5" id="services">
         <div class="container">
             <div class="text-center">
                 <div class="section-title">
@@ -392,55 +406,67 @@ NOBLETOKEN
                 </div>
             </div>
             <div class="row">
-                
+
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/1.png" alt="icon">
                         <h2>01</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Transaction</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.1s">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/2.png" alt="icon">
                         <h2>02</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Exchange</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.2s">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/3.png" alt="icon">
                         <h2>03</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Investment</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.1s">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/4.png" alt="icon">
                         <h2>04</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Escrow Service</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.2s">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/5.png" alt="icon">
                         <h2>05</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Mining</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" data-wow-delay="0.3s">
                     <div class="single-service tran4s">
                         <img src="assets/img/icons/6.png" alt="icon">
                         <h2>06</h2>
                         <h5><a href="service-details.html" class="tran4s">Bitcoin Shopping</a></h5>
                         <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit, sed do eiu smod tempor incididunt ut lab.</p>
-                    </div> <!-- /.single-service -->
-                </div> <!-- /.col- -->
+                    </div>
+                    <!-- /.single-service -->
+                </div>
+                <!-- /.col- -->
             </div>
         </div>
     </section>
@@ -454,34 +480,41 @@ NOBLETOKEN
                         <div class="single-box">
                             <h2 class="number"><span class="timer" data-from="0" data-to="84" data-speed="1000" data-refresh-interval="5">84</span></h2>
                             <p>Satisfied Client</p>
-                        </div> <!-- /.single-box -->
+                        </div>
+                        <!-- /.single-box -->
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="single-box">
                             <h2 class="number"><span class="timer" data-from="0" data-to="248" data-speed="1000" data-refresh-interval="5">248</span></h2>
                             <p>Completed projects</p>
-                        </div> <!-- /.single-box -->
+                        </div>
+                        <!-- /.single-box -->
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="single-box">
                             <h2 class="number"><span class="timer" data-from="0" data-to="86" data-speed="1000" data-refresh-interval="5">86</span></h2>
                             <p>Cup of Coffe</p>
-                        </div> <!-- /.single-box -->
+                        </div>
+                        <!-- /.single-box -->
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="single-box border-fix">
                             <h2 class="number"><span class="timer" data-from="0" data-to="12" data-speed="1000" data-refresh-interval="5">12</span>+</h2>
                             <p>Years Expereince</p>
-                        </div> <!-- /.single-box -->
+                        </div>
+                        <!-- /.single-box -->
                     </div>
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /.main-content -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.main-content -->
     </div>
 
-    
+
     <!-- START ROAD MAP -->
-    <section class="road-map" id="road-map"> 
+    <section class="road-map" id="road-map">
         <div class="container outer clearfix">
             <div class="section-title">
                 <h3 class="text-center">Noble Token Road Map</h3>
@@ -489,45 +522,45 @@ NOBLETOKEN
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
             </div>
             <div class="row">
-                
+
                 <div class="timeline-split">
                     <div class="col-md-10 col-md-offset-1 col-sm-12">
                         <div class="timeline section-box-margin">
                             <div class="block block-left">
-                               <h3>Noble Token Development Starts</h3>
-                               <span>MARCH 12, 2021 to Novamber 19, 2020</span>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
+                                <h3>Noble Token Development Starts</h3>
+                                <span>MARCH 12, 2021 to Novamber 19, 2020</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
                             </div>
 
                             <div class="block block-right mt-30">
-                               <h3>Groundwork Preparation for ICO</h3>
-                               <span>DECAMBER 3, 2020 to DECAMBER 23, 2020</span>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
+                                <h3>Groundwork Preparation for ICO</h3>
+                                <span>DECAMBER 3, 2020 to DECAMBER 23, 2020</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
                             </div>
 
                             <div class="block block-left mt-30">
-                               <h3>Noble Token Blockchain First Release</h3>
-                               <span>JANUARY 02, 2021 to MARCH 17, 2021</span>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
+                                <h3>Noble Token Blockchain First Release</h3>
+                                <span>JANUARY 02, 2021 to MARCH 17, 2021</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
                             </div>
 
                             <div class="block block-right mt-30">
-                               <h3>Noble Token Bank & Cards Phase</h3>
-                               <span>APRIL 28, 2021 to MAY 28, 2021</span>
-                               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
+                                <h3>Noble Token Bank & Cards Phase</h3>
+                                <span>APRIL 28, 2021 to MAY 28, 2021</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci provident officia animi. Impedit dicta, veniam quae in, animi autem illum eos tempore iste a nisi.</p>
                             </div>
                             <div class="circle"></div>
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
     <!-- END ROAD MAP -->
 
     <div class="clearfix"></div>
-    
+
     <!-- START PROMO VIDEO -->
     <section id="boucher" class="section-padding section-back-image" data-background="assets/img/bg/promo-bg-2.jpg">
         <div class="container">
@@ -549,8 +582,8 @@ NOBLETOKEN
         <!--- END CONTAINER -->
     </section>
     <!-- END PROMO VIDEO  -->
-    
-    
+
+
     <!-- START TESTIMONIAL -->
     <section id="testimonial" class="section-padding bg-gray">
         <div class="container">
@@ -639,7 +672,7 @@ NOBLETOKEN
         <!--- END CONTAINER -->
     </section>
     <!-- END TESTIMONIAL -->
-    
+
     <!-- START MARKET SHOW -->
     <section id="blog" class="section-padding d-none">
         <div class="container">
@@ -662,7 +695,9 @@ NOBLETOKEN
                                 </div>
                             </div>
                             <div class="content-entry">
-                                <a href="#"><h4 class="title">The Future of bitcoin Investments</h4></a>
+                                <a href="#">
+                                    <h4 class="title">The Future of bitcoin Investments</h4>
+                                </a>
                                 <div class="event-start-time">
                                     <p>
                                         <span><i class="fa fa-user-o"></i> Admin</span>
@@ -684,7 +719,9 @@ NOBLETOKEN
                                 </div>
                             </div>
                             <div class="content-entry">
-                                <a href="#"><h4 class="title">Why I need to choose Noble Token</h4></a>
+                                <a href="#">
+                                    <h4 class="title">Why I need to choose Noble Token</h4>
+                                </a>
                                 <div class="event-start-time">
                                     <p>
                                         <span><i class="fa fa-user-o"></i> Admin</span>
@@ -693,7 +730,7 @@ NOBLETOKEN
                                     </p>
                                 </div>
                                 <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, cupiditate, rerum. Porro fuga laudantium tempore! Illum modi natus, reiciendis? Saepe quos id sunt. Iste officiis facilis, velit facere culpa iusto.</p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -707,7 +744,9 @@ NOBLETOKEN
                                 </div>
                             </div>
                             <div class="content-entry">
-                                <a href="#"><h4 class="title">Benefits of getting Cryptocurrency</h4></a>
+                                <a href="#">
+                                    <h4 class="title">Benefits of getting Cryptocurrency</h4>
+                                </a>
                                 <div class="event-start-time">
                                     <p>
                                         <span><i class="fa fa-user-o"></i> Admin</span>
@@ -729,7 +768,9 @@ NOBLETOKEN
                                 </div>
                             </div>
                             <div class="content-entry">
-                                <a href="#"><h4 class="title">Cryptocurrencies new Prices</h4></a>
+                                <a href="#">
+                                    <h4 class="title">Cryptocurrencies new Prices</h4>
+                                </a>
                                 <div class="event-start-time">
                                     <p>
                                         <span><i class="fa fa-user-o"></i> Admin</span>
@@ -749,9 +790,9 @@ NOBLETOKEN
         <!--- END CONTAINER -->
     </section>
     <!-- END MARKET SHOW -->
-  
-    
-    
+
+
+
     <!-- START SPONSORS SECTION -->
     <div id="sponsors" class="sponsors-section bg-gray">
         <div class="container">
@@ -790,8 +831,8 @@ NOBLETOKEN
         <!--- END CONTAINER -->
     </div>
     <!-- END SPONSORS SECTION -->
-    
-    
+
+
     <!-- START FAQ -->
     <section id="faq" class="section-padding">
         <div class="container">
@@ -832,7 +873,7 @@ NOBLETOKEN
                                 <hr>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                                 <hr>
-                                
+
                             </div>
                             <div id="faq2" class="tab-pane fade">
                                 <h4>Lorem ipsum dolor sit amet</h4>
@@ -920,7 +961,7 @@ NOBLETOKEN
                                 <div class="form-group col-md-12 mb0 text-center">
                                     <div class="actions">
                                         <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn btn-lg btn-contact-bg" title="Click here to submit your message!" />
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -935,75 +976,80 @@ NOBLETOKEN
     </section>
     <!-- END CONTACT -->
 
-      <!-- ======================================= 
+    <!-- ======================================= 
     ==Start footer section==  
     =======================================-->
     <footer class="main-footer footer-style-two text-center">
-    <!--Widgets Section-->
-      <div class="widgets-section padding-top-small padding-bottom-small">
-         <div class="container">
-             
-            <div class="row clearfix">
-               <!--Footer Column-->
-               <div class="footer-column col-md-4 col-sm-6 col-xs-12">
-                  <div class="footer-widget about-widget">
-                     <h3 class="has-line-center">About Us</h3>
-                     <div class="widget-content">
-                        <div class="text">At the end of the day, going forward, a new normal that has evolved generation X is on the runway heading towards a streamlined cloud solution. </div>
-                           <ul class="social-links">
-                              <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
-                              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                              <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-                           </ul>
-                         </div>
-                     </div>
-                 </div><!--End Footer Column-->
-                 
-                 <!--Footer Column-->
-                 <div class="footer-column col-md-4 col-sm-6 col-xs-12">
-                     <div class="footer-widget contact-widget">
-                         <h3 class="has-line-center">Contact Us</h3>
-                         <div class="widget-content">
-                             <ul class="contact-info">
-                                 <li><div class="icon"><img src="assets/img/elements/support.png" alt="icon"></div></li>
-                                 <li>10, Mc Donald Avenue, Sunset Park, Newyork</li>
-                                 <li>+99 999 9999</li>
-                                 <li>info@yourdomain.com</li>
-                             </ul>
-                         </div>
-                     </div>
-                 </div><!--End Footer Column-->
-                 
-                 <!--Footer Column-->
-                 <div class="footer-column col-md-4 col-sm-12 col-xs-12">
-                     <div class="footer-widget newsletter-widget">
-                         <h3 class="has-line-center">Newsletter</h3>
-                         <div class="widget-content">
-                           <div class="text">Stay Updated with our latest news. We promise not to spam</div>
-                             <div class="newsletter-form">
-                                 <form method="post">
-                                     <div class="form-group">
-                                         <input type="email" name="field-name" value="" placeholder="Your Email" required="">
-                                         <button type="submit" class="send-btn"><span class="fa fa-paper-plane-o"></span></button>
-                                     </div>
-                                 </form>
-                             </div>
-                         </div>
-                     </div>
-                 </div><!--End Footer Column-->
-                 
-             </div>
-         </div>
-     </div>
-     
-     <!--Footer Bottom-->
-      <div class="footer-bottom">
-         <div class="auto-container">
-            <div class="copyright-text">Copyright © All Rights Reserved</div>
-         </div>
-      </div>
+        <!--Widgets Section-->
+        <div class="widgets-section padding-top-small padding-bottom-small">
+            <div class="container">
+
+                <div class="row clearfix">
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget about-widget">
+                            <h3 class="has-line-center">About Us</h3>
+                            <div class="widget-content">
+                                <div class="text">At the end of the day, going forward, a new normal that has evolved generation X is on the runway heading towards a streamlined cloud solution. </div>
+                                <ul class="social-links">
+                                    <li><a href="#"><span class="fa fa-facebook-f"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Footer Column-->
+
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget contact-widget">
+                            <h3 class="has-line-center">Contact Us</h3>
+                            <div class="widget-content">
+                                <ul class="contact-info">
+                                    <li>
+                                        <div class="icon"><img src="assets/img/elements/support.png" alt="icon"></div>
+                                    </li>
+                                    <li>10, Mc Donald Avenue, Sunset Park, Newyork</li>
+                                    <li>+99 999 9999</li>
+                                    <li>info@yourdomain.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Footer Column-->
+
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-4 col-sm-12 col-xs-12">
+                        <div class="footer-widget newsletter-widget">
+                            <h3 class="has-line-center">Newsletter</h3>
+                            <div class="widget-content">
+                                <div class="text">Stay Updated with our latest news. We promise not to spam</div>
+                                <div class="newsletter-form">
+                                    <form method="post">
+                                        <div class="form-group">
+                                            <input type="email" name="field-name" value="" placeholder="Your Email" required="">
+                                            <button type="submit" class="send-btn"><span class="fa fa-paper-plane-o"></span></button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Footer Column-->
+
+                </div>
+            </div>
+        </div>
+
+        <!--Footer Bottom-->
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="copyright-text">Copyright © All Rights Reserved</div>
+            </div>
+        </div>
     </footer>
     <!-- ======================================= 
     ==End footer section==  
@@ -1021,7 +1067,7 @@ NOBLETOKEN
     <!-- jQuery Timer -->
     <script src="assets/js/jquery.countdown.min.js"></script>
     <!-- HighCharts -->
-     <script src="assets/js/highcharts.js"></script>
+    <script src="assets/js/highcharts.js"></script>
     <script src="assets/js/create-highcarts.js"></script>
     <!-- venobox js -->
     <script src="assets/js/venobox.min.js"></script>
@@ -1038,7 +1084,7 @@ NOBLETOKEN
     <script src="assets/js/scrolltopcontrol.js"></script>
     <!-- form-contact js -->
     <script src="assets/js/form-contact.js"></script>
-    
+
     <script src="assets/js/scripts.js"></script>
 </body>
 

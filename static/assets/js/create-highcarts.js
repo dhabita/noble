@@ -1,6 +1,6 @@
 // Make monochrome colors
-var pieColors = (function () {
-    var colors = ['#007bff','#cf3546','#be7e19','#009d8c','#a620a2','#a62045','#19be9f'],
+var pieColors = (function() {
+    var colors = ['#abcdef', '#007bff', '#19be9f', '#be7e19', '#a620a2', '#a62045', '#19be9f'],
         base = Highcharts.getOptions().colors[0],
         i;
 
@@ -42,7 +42,7 @@ Highcharts.chart('container', {
                 }
             }
         }
-    },                   
+    },
     series: [{
         name: 'NUBLE',
         data: [
@@ -50,8 +50,8 @@ Highcharts.chart('container', {
             { name: 'Reward 55%', y: 55 },
             { name: 'Charity 5%', y: 5 },
             { name: 'Team 30%', y: 30 }
-           
-            
+
+
         ]
     }]
 });
