@@ -47,9 +47,9 @@ Highcharts.chart('container', {
         name: 'NUBLE',
         data: [
             { name: 'Liquidity 10%', y: 5 },
-            { name: 'Reward 55%', y: 55 },
+            { name: 'Reward 60%', y: 60 },
             { name: 'Charity 5%', y: 5 },
-            { name: 'Team 30%', y: 30 }
+            { name: 'Team 25%', y: 25 }
 
 
         ]
